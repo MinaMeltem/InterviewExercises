@@ -38,5 +38,8 @@ public class Main {
         Exer8 exer8 = new Exer8();
         System.out.println(exer8.decode("0001111")); //[3, 4]
         System.out.println(exer8.decode("000111100001")); // [7, 5]
+
+        Recursion1 r1 =  new Recursion1();
+        System.out.println(r1.sumOfDigits(2346));
     }
 }
